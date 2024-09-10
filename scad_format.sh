@@ -1,7 +1,10 @@
 #!/bin/bash
 
-for var in "$@"
+for scadfile in "$@"
 do
-    echo "$var"
-    ./pnpm openscad-format --force -i $var
+    echo "$scadfile"
+    if [[ $scadfile = @(library/train_tracks_generator.scad) ]]; then
+        continue
+    fi
+    ./pnpm openscad-format --force -i $scadfile
 done

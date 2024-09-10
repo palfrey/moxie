@@ -1,5 +1,5 @@
-include <dungeon.scad>
-include <train_tracks_generator.scad>
+include <../library/dungeon.scad>
+include <../library/train_tracks_generator.scad>
 
 difference()
 {

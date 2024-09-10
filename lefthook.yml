@@ -1,9 +1,13 @@
+assert_lefthook_installed: true
 pre-commit:
   parallel: true
   commands:
     prettier:
       glob: "*.{cjs,js}"
       run: ./pnpm prettier --write {staged_files}
-    scad:
+    scad-format:
       glob: "*.scad"
       run: bash scad_format.sh {staged_files}
+    update-stl:
+      glob: "*.scad"
+      run: bash ./update_stl.sh

@@ -1,5 +1,5 @@
-include <dungeon.scad>
-include <train_tracks_generator.scad>
+include <../library/dungeon.scad>
+include <../library/train_tracks_generator.scad>
 
 difference()
 {
@@ -82,4 +82,5 @@ translate([ tile_spacing(7.27905), tile_spacing(4.676), 0 ])
               end1 = "none",
               end2 = "plug",
               cutout = false);
-    }}
+    }
+}
