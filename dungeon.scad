@@ -7,7 +7,8 @@ tile_depth = .25 * one_inch;
 grid_spacing = .1 * one_inch;
 fudge = 0.0005;
 
-module dungeon(grid_width = 10, grid_length = 10)
+module
+dungeon(grid_width = 10, grid_length = 10)
 {
     total_grid_length =
         ((tile_width + grid_spacing) * (grid_length - 1)) + tile_width;
