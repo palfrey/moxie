@@ -3,7 +3,7 @@ include <../library/train_tracks_generator.scad>
 
 difference()
 {
-    dungeon(5, 5);
+    dungeon(7, 7);
     translate([ tile_width + grid_spacing, -0.01, -0.01 ])
     {
         scale([ 1, 1, 1.01 ])
@@ -21,7 +21,7 @@ difference()
     }
 }
 
-translate([ tile_width + grid_spacing, 0, 0 ])
+translate([ tile_spacing(2) + grid_spacing, 0, 0 ])
 {
     track_arc(angle = -90,
               radius = 86,
