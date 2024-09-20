@@ -92,17 +92,17 @@ switch_cut_ext = 1;
 // ### For example: track_plug_radius = 6.45;
 
 // Track Plug - choose your system here or define your own values
-track_plug_radius = ikea_track_plug_radius;
-track_plug_radius_ext = ikea_track_plug_radius_ext;
-track_plug_neck_width = ikea_track_plug_neck_width;
-track_plug_neck_length = ikea_track_plug_neck_length;
-track_plug_txt = ikea_track_plug_txt;
+track_plug_radius = brio_track_plug_radius;
+track_plug_radius_ext = brio_track_plug_radius_ext;
+track_plug_neck_width = brio_track_plug_neck_width;
+track_plug_neck_length = brio_track_plug_neck_length;
+track_plug_txt = brio_track_plug_txt;
 
 // Track Nest  - choose your system here or define your own values
-track_nest_radius = ikea_track_nest_radius;
-track_nest_neck_width = ikea_track_nest_neck_width;
-track_nest_neck_length = ikea_track_nest_neck_length;
-track_nest_txt = ikea_track_nest_txt;
+track_nest_radius = brio_track_nest_radius;
+track_nest_neck_width = brio_track_nest_neck_width;
+track_nest_neck_length = brio_track_nest_neck_length;
+track_nest_txt = brio_track_nest_txt;
 
 
 // ### TESTING / GENERATION AREA / EXAMPLES
