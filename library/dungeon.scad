@@ -18,7 +18,7 @@ dungeon(grid_width = 10, grid_length = 10)
     difference()
     {
         cube(size = [ total_grid_length, total_grid_width, tile_depth ]);
-        for (n = [1:grid_length - 1]) {
+        for (n = [1:((grid_length == 1) ? 1 : grid_length - 1)]) {
             translate([
                 (tile_width + grid_spacing) * (n - 1) + tile_width,
                 -fudge,
@@ -33,7 +33,7 @@ dungeon(grid_width = 10, grid_length = 10)
                 ]);
             }
         }
-        for (n = [1:grid_width - 1]) {
+        for (n = [1:((grid_width == 1) ? 1 : grid_width - 1)]) {
             translate([
                 -fudge,
                 (tile_width + grid_spacing) * (n - 1) + tile_width,
