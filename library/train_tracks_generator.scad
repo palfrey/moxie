@@ -1,5 +1,6 @@
 // Train tracks generator for IKEA Lillabo, Brio and others
-//// by torwan @ January 8th, 2023
+// by torwan @ January 8th, 2023
+// https://creativecommons.org/licenses/by-nc-sa/4.0/
 
 // Description / Hints:
 // - See more details on https://www.thingiverse.com/thing:5598668
